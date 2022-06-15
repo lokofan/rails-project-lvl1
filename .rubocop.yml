@@ -1,0 +1,18 @@
+require:
+  - rubocop-performance
+  - rubocop-rake
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.0.2
+
+Style/Documentation:
+  Enabled: false
+
+Naming/MethodParameterName:
+  AllowedNames:
+    - as
+
+RSpec/ExampleLength:
+  Max: 10
